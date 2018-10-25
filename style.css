@@ -1,0 +1,158 @@
+body{
+  padding: .5rem;
+  box-sizing: border-box;
+  width: 55%;
+  margin: 0 auto;
+}
+
+#sidenav{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 100vh;
+  background-color: #f7f7f7;
+  text-align: center;
+
+}
+
+#sidenav ul li {
+  list-style: none;
+  font-size: 20px;
+  width: 75%;
+  height: 50px;
+  color: black;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:visited{
+  text-decoration: none;
+}
+
+a:hover{
+  color: blue;
+}
+
+
+#box1{
+  background-color: #f7f7f7;
+  width: 100%;
+  border-radius: 3px;
+  text-align: left;
+  padding-bottom: 5px;
+  overflow: auto;
+}
+
+table{
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+#table1{
+  display: inline-block;
+
+}
+
+#table2{
+  display: inline-block;
+  float: left;
+  margin-left: 1.9rem;
+  margin-right: 1rem;
+}
+
+
+#table3 td{
+  border: none;
+  padding: 8px;
+  font-size: 20px;
+  text-align: center;
+}
+
+#table3 th{
+  padding: 0;
+}
+
+
+
+table th{
+  padding: 1rem;
+  text-align: center;
+}
+
+table td{
+  padding: 3px;
+  border: 2px solid #808080;
+  padding: 5px;
+
+}
+
+h1{
+  text-align: center;
+}
+
+h2{
+  text-align: center;
+}
+
+#warning{
+  color: red;
+  text-transform: uppercase;
+}
+
+#paid{
+  color: green;
+}
+
+.button{
+  border-radius: 3px;
+  color: white;
+  background-color: #808080;
+  padding: 3px;
+  cursor: pointer;
+  text-decoration: none;
+  margin: 5px;
+}
+
+.payButton{
+  text-align: center;
+  border: none;
+}
+
+.editButton{
+  text-align: center;
+  border: none;
+}
+
+@media screen and (max-width: 600px) {
+
+
+     #box2{
+        width: 50px;
+    }
+
+    #sidenav ul li {
+      list-style: none;
+      font-size: 12px;
+      height: 50px;
+      color: black;
+
+    }
+
+    #sidenav{
+      width: 120px;
+      text-align: left;
+    }
+
+    #table1{
+      margin-left: 30px;
+    }
+
+    #table2{
+      margin-right: 20px;
+    }
+
+
+}
